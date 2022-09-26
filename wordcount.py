@@ -13,6 +13,6 @@ def count_words(input_file):
 
     return word_count
 
-with open("test.txt") as input_file:
+with open("twain.txt") as input_file:
     print(count_words(input_file))
 
